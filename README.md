@@ -85,6 +85,36 @@ Build a strong foundation in networking concepts:
 4. **Test yourself** - Complete the practice exercises in each section
 5. **Revisit difficult topics** - Use the summaries for quick review
 
+## Quiz App
+
+This repository also includes a local Quizlet-style study app built from the topics covered in these study notes.
+
+**Location:** `quiz-app/`
+
+**Features:**
+- Section-based quizzes or all-sections shuffle mode
+- Multiple choice and fill-in-the-blank questions
+- Instant answer feedback with explanations
+- Score tracking and progress bar
+- Retry mode for missed questions only
+
+### Launch the Quiz App
+
+From the repository root in PowerShell, run:
+
+```powershell
+.\launch-quiz-app.ps1
+```
+
+This opens `quiz-app/index.html` in your default browser.
+
+### How to Use the App
+
+1. Choose a single section or start a shuffled quiz across all sections.
+2. Use the checkboxes to include multiple choice questions, fill-in-the-blank questions, or both.
+3. Answer each question and review the explanation shown after submission.
+4. At the end of the quiz, review missed questions and use **Retry Missed Only** for targeted study.
+
 ## 🔗 Additional Resources
 
 - [Cisco DevNet](https://developer.cisco.com/) - Official developer portal
